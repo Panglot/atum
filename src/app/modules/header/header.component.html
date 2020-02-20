@@ -1,0 +1,7 @@
+<nb-actions [size]="'medium'">
+  <nb-action *ngFor="let route of router.config" routerLinkActive="router-link-underline" [routerLinkActiveOptions]="{exact: true}">
+    <a [routerLink]="[route.path]" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{exact: true}">
+      {{ route.data.routeName }}
+    </a>
+  </nb-action>
+</nb-actions>

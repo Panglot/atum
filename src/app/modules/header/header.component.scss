@@ -1,0 +1,4 @@
+@import '../../../themes.scss';
+.router-link-active { color: nb-theme(text-primary-color) !important; }
+.router-link-underline { border-bottom: 2px solid nb-theme(text-primary-color); }
+a { text-decoration: none; }
